@@ -3,7 +3,7 @@
 
 void setup() {
   Serial.begin(115200);
-  uint8_t RX_PIN = 10;
+  constexpr uint8_t RX_PIN = 10;
   VanBusRx.Setup(RX_PIN);
 }
 
